@@ -112,11 +112,12 @@ border: 1px solid #ccc;
 	width: 100%;
 	margin-top: 10px;
 	text-align: left;
+	height: 0;
 	overflow: hidden;
 }
 
 .og-expander-inner {
-	padding: 50px 30px;
+	padding: 30px 10px;
 	height: 100%;
 }
 
@@ -157,13 +158,13 @@ border: 1px solid #ccc;
 .og-details {
 	width: 46%;
 	float: left;
-	height: auto;
+	height: 100%;
 	overflow: hidden;
 	position: relative;
 }
 
 .og-details {
-margin-left:4%
+margin-left:0;
 }
 
 .og-fullimg {
@@ -172,6 +173,8 @@ margin-left:4%
 
 .og-fullimg img {
 	display: inline-block;
+	height: 400px;
+	width: 400px;
 	max-height: 100%;
 	max-width: 100%;
 }
